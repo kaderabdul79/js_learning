@@ -1,5 +1,7 @@
 const ages = [21,22,23,45,55]
 
-for ( const age of ages){
-    console.log(age)
-}
+// for ( const age of ages){
+//     console.log(age)
+// }
+
+ages.forEach(age => {console.log(age)})
